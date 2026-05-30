@@ -3,79 +3,77 @@
 A content-based Movie Recommendation System built using Python, Streamlit, and Machine Learning. The application recommends movies similar to a user's selected movie by analyzing movie metadata and computing similarity scores.
 
 🚀 <b> Features </b> <br>
-Content-based movie recommendations
-Interactive Streamlit web interface
-Movie poster integration using OMDb API
-IMDb ratings and release year display
-Fast similarity-based recommendation engine
-Clean and user-friendly UI
-🛠️ Tech Stack
-Machine Learning
-Python
-Pandas
-NumPy
-Scikit-Learn
-NLP & Feature Engineering
-Porter Stemmer (NLTK)
-CountVectorizer
-Cosine Similarity
-Frontend
-Streamlit
-External APIs
-OMDb API
-📊 Project Workflow
-Collect movie metadata dataset.
-Perform data cleaning and preprocessing.
-Combine important features such as:
-Genres
-Keywords
-Cast
-Crew
-Overview
-Apply text preprocessing and stemming using Porter Stemmer.
-Convert textual data into numerical vectors using CountVectorizer.
-Compute cosine similarity between movie vectors.
-Recommend the most similar movies to the selected movie.
-Fetch movie posters, ratings, and release years using OMDb API.
-Display recommendations through a Streamlit web application.
-📂 Project Structure
+Content-based movie recommendations <br>
+Interactive Streamlit web interface <br>
+Movie poster integration using OMDb API <br>
+IMDb ratings and release year display <br>
+Fast similarity-based recommendation engine <br>
+Clean and user-friendly UI<br> 
+🛠️ <b>Tech Stack </b> <br>
+Machine Learning <br>
+Python <br>
+Pandas <br>
+NumPy <br>
+Scikit-Learn <br>
+NLP & Feature Engineering <br>
+Porter Stemmer (NLTK) <br>
+CountVectorizer <br>
+Cosine Similarity <br>
+Frontend : Streamlit
+External APIs : OMDb API <br>
+📊 <b>Project Workflow </b> <br>
+- Collect movie metadata dataset.<br>
+- Perform data cleaning and preprocessing. <br>
+- Combine important features such as:<br>
+  Genres <br>
+  Keywords <br>
+  Cast <br>
+  Crew <br>
+  Overview <br>
+- Apply text preprocessing and stemming using Porter Stemmer. <br>
+- Convert textual data into numerical vectors using CountVectorizer. <br>
+- Compute cosine similarity between movie vectors. <br>
+- Recommend the most similar movies to the selected movie. <br>
+- Fetch movie posters, ratings, and release years using OMDb API. <br>
+- Display recommendations through a Streamlit web application. <br>
+📂 <b> Project Structure </b> <br>
 
-movie-recommendation-system/
+movie-recommendation-system/ <br>
 
-├── app.py
+├── app.py <br>
 
-├── movies.pkl
+├── movies.pkl <br>
 
-├── requirements.txt
+├── requirements.txt <br>
 
-├── README.md
+├── README.md <br>
 
-├── .gitignore
+├── .gitignore <br>
 
 └── similarity.pkl (generated locally and excluded from GitHub)
 
-⚙️ Installation
+⚙️ <b> Installation </b> <br>
 
-Clone the repository:
+Clone the repository: <br>
 
-git clone https://github.com/aditi2902/movie-recommendation-system.git
+git clone https://github.com/aditi2902/movie-recommendation-system.git <br>
 
-cd movie-recommendation-system
+cd movie-recommendation-system <br>
 
-Create a virtual environment:
+Create a virtual environment: <br>
 
-python3 -m venv venv
+python3 -m venv venv <br>
 
-source venv/bin/activate
+source venv/bin/activate <br>
 
-Install dependencies:
+Install dependencies: <br>
 
-pip install -r requirements.txt
+pip install -r requirements.txt <br>
 
-▶️ Run the Application
+▶️ <b> Run the Application </b> <br>
 
-streamlit run app.py
+streamlit run app.py <br>
 
-The application will open in your browser at:
+The application will open in your browser at: <br>
 
-http://localhost:8501
+http://localhost:8501 <br>
