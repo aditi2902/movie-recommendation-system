@@ -1,8 +1,8 @@
-🎬 Movie Recommendation System
+🎬  <b> Movie Recommendation System </b>
 
 A content-based Movie Recommendation System built using Python, Streamlit, and Machine Learning. The application recommends movies similar to a user's selected movie by analyzing movie metadata and computing similarity scores.
 
-🚀 Features
+🚀 <b> Features </b> <br>
 Content-based movie recommendations
 Interactive Streamlit web interface
 Movie poster integration using OMDb API
